@@ -28,49 +28,50 @@
         }
     }, 4800);
 
+
     new Typed('#console3', {
-            strings: ['^4000 echo introduction<br>'],
+        strings: ['^5000 ls<br>'],
+        typeSpeed: 100,
+        showCursor: false
+    });
+    setTimeout(() => {
+        var x = document.getElementsByClassName("s3")[0];
+        console.log(x);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }, 6300);
+
+     new Typed('#console4', {
+            strings: ['^7000 cat intro.txt <br>'],
             typeSpeed: 100,
             showCursor: false
         });
         setTimeout(() => {
-            var x = document.getElementsByClassName("s3")[0];
+            var x = document.getElementsByClassName("s4")[0];
             console.log(x);
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
                 x.style.display = "none";
             }
-        }, 6500);
+        }, 9000);
 
-    new Typed('#console4', {
-        strings: ['^7200 ls<br>'],
-        typeSpeed: 100,
-        showCursor: false
-    });
-    setTimeout(() => {
-        var x = document.getElementsByClassName("s4")[0];
-        console.log(x);
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }, 7500);
+     new Typed('#console5', {
+            strings: ['^9700 cat profile.txt<br>'],
+            typeSpeed: 100,
+            showCursor: false
+        });
+        setTimeout(() => {
+            var x = document.getElementsByClassName("s5")[0];
+            console.log(x);
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }, 12500);
 
-
-    new Typed('#console5', {
-        strings: ['^8000 cat intro.txt<br>'],
-        typeSpeed: 100,
-        showCursor: false
-    });
-    setTimeout(() => {
-        var x = document.getElementsByClassName("s5")[0];
-        console.log(x);
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }, 10000);
 })();
