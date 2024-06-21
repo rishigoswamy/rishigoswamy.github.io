@@ -6,7 +6,6 @@
     });
     setTimeout(() => {
         var x = document.getElementsByClassName("s1")[0];
-        console.log(x);
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {
@@ -20,7 +19,6 @@
     });
     setTimeout(() => {
         var x = document.getElementsByClassName("s2")[0];
-        console.log(x);
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {
@@ -36,7 +34,6 @@
     });
     setTimeout(() => {
         var x = document.getElementsByClassName("s3")[0];
-        console.log(x);
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {
@@ -51,7 +48,6 @@
         });
         setTimeout(() => {
             var x = document.getElementsByClassName("s4")[0];
-            console.log(x);
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -66,7 +62,6 @@
         });
         setTimeout(() => {
             var x = document.getElementsByClassName("s5")[0];
-            console.log(x);
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
